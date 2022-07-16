@@ -25,8 +25,11 @@ class Main2Activity : AppCompatActivity() {
         val altura = altura.toFloatOrNull()
         if (peso !=null && altura!= null){
             val imc = peso / (altura * altura /10000)
-            title2.text = "seu IMC é de $imc".format(imc)
-
+            val builder = AlertDialog.Builder(this)
+            builder.setTitle("IMC").toString()  
+            builder.setMessage("Seu IMC é de $imc").toString()
+            val dialog: AlertDialog = builder.create()
+            dialog.show()
         }
     }
 
