@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Calculadora IMC</string>
+    <string name="ol_radiobutton">Olá RadioButton</string>
+    <string name="sou_o_checkbox">Sou o Checkbox</string>
+    <string name="imc">IMC</string>
+    <string name="peso_70kg">Digite o seu peso aqui (70kg)</string>
+    <string name="altura_ex_175cm">Digite a sua Altura aqui(ex:175cm)</string>
+    <string name="dialog_message">Digite a sua Altura aqui(ex:175cm)</string>
+    <string name="calcular">CALCULAR!</string>
+    <string name="dialog_start_game">Seu IMC é de $imc</string>
+
+</resources>
